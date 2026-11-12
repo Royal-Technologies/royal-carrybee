@@ -462,3 +462,17 @@ function royal_carrybee() {
 
 // Start the plugin
 royal_carrybee();
+
+// ============================================================
+// PLUGIN UPDATER (GitHub Auto-Updates)
+// ============================================================
+require_once RCB_PLUGIN_DIR . 'includes/class-carrybee-updater.php';
+
+function royal_carrybee_initialize_updater(): void {
+    if ( class_exists( 'Royal_Carrybee_Updater' ) ) {
+        $update_url = 'https://raw.githubusercontent.com/Royal-Technologies/royal-carrybee/main/royal-carrybee.json';
+        new Royal_Carrybee_Updater( RCB_PLUGIN_FILE, $update_url );
+    }
+}
+add_action( 'init', 'royal_carrybee_initialize_updater' );
+

@@ -1,0 +1,18 @@
+{
+    "version": "26.07.11",
+    "homepage": "https://github.com/Royal-Technologies/royal-carrybee",
+    "download_url": "https://github.com/Royal-Technologies/royal-carrybee/releases/latest/download/royal-carrybee.zip",
+    "banners": {
+        "low": "https://raw.githubusercontent.com/Royal-Technologies/royal-carrybee/main/assets/images/banner-772x250.jpg",
+        "high": "https://raw.githubusercontent.com/Royal-Technologies/royal-carrybee/main/assets/images/banner-1544x500.jpg"
+    },
+    "icons": {
+        "1x": "https://raw.githubusercontent.com/Royal-Technologies/royal-carrybee/main/assets/images/icon-128x128.png",
+        "2x": "https://raw.githubusercontent.com/Royal-Technologies/royal-carrybee/main/assets/images/icon-256x256.png"
+    },
+    "sections": {
+        "description": "<p><strong>Royal Carrybee</strong> is a <strong>100% FREE & Open-Source</strong> WooCommerce shipping and courier automation plugin for Carrybee courier service in Bangladesh.</p><p>Features include instant 1-click parcel dispatch from Orders list, intelligent City &amp; Zone auto-matching, real-time webhook parcel tracking, cascading checkout dropdowns, and nationwide coverage across 64 districts in Bangladesh.</p>",
+        "installation": "<ol><li>Upload <code>royal-carrybee.zip</code> through <strong>WordPress Admin &gt; Plugins &gt; Add New &gt; Upload Plugin</strong> or install via Git.</li><li>Activate the plugin through the <strong>Plugins</strong> menu.</li><li>Configure your Carrybee API credentials under <strong>WooCommerce &gt; Carrybee</strong>.</li><li>Add Carrybee to your WooCommerce Shipping Zones under <strong>WooCommerce &gt; Settings &gt; Shipping</strong>.</li></ol>",
+        "changelog": "<ul><li><strong>26.07.11:</strong> Improved smart auto-matching uses WooCommerce State for Carrybee City and WooCommerce City for Carrybee Zone to prevent spelling issues; added address lookup API fallback; fixed loading spinner bug; added GitHub auto-updater and WordPress auto-update support.</li><li><strong>26.07.10:</strong> Added One-Click 'Sent to Carrybee' instant action button in WooCommerce Orders table and order details; added smart address auto-fill.</li><li><strong>1.0.0:</strong> Initial release with Carrybee API integration, shipping method, and tracking.</li></ul>"
+    }
+}
